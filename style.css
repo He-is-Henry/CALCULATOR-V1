@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1c1c1c;
 }
 
 .buttons {
@@ -14,7 +15,6 @@ body {
 .calculator {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #1c1c1c;
-  width: 400px;
   max-width: 100vw;
   padding: 60px 5px 0 5px;
   position: absolute;
@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 600px) { 
     .buttons button {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 }
