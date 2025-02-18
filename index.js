@@ -41,7 +41,7 @@ buttonValues.forEach((buttonValue) => {
   button.textContent = buttonValue;
 
   if (buttonValue === "0") {
-    button.style.width = "200px";
+    button.style.width = "120px";
     button.style.gridColumn = "span 2";
   }
   if (rightSymbols.includes(buttonValue)) {
